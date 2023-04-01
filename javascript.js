@@ -8,3 +8,12 @@ function numberMinMax(min, max){ //creates numberMinMax function
     //console.log(diceRoll)
     return(diceRoll)
 }
+
+function breakDice(){
+    // console.log(typeof + numberMinMax(1,6))
+    if (typeof numberMinMax(1,6)!="number"){
+        console.log("is not number")
+    } 
+}
+breakDice() 
+
